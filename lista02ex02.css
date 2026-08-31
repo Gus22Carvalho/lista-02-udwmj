@@ -1,0 +1,118 @@
+/* Reset básico de margens e configuração global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-image:linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)),
+    url(/img/img-fundo-ash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #0f172a;
+}
+header{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #334155; /*Adiciona borda inferior*/
+    padding-bottom: 12px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    max-width: 1024px;
+    width: 100%;
+    background-color: #1e293b; /* Card levemente mais claro */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4); /*Faz sombreamento*/
+    border: 1px solid #334155;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-right: 1px solid #334155;
+    padding-right: 20px;
+}
+#description{
+    width: 70%;
+    text-align: justify;
+    color: #e2e8f0;            /* Texto claro e agradável */
+    line-height: 1.7;
+    padding: 20px;
+}
+.foto-perfil {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 1px solid #38bdf8;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.descricao-curta {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+h2{
+  color: #e2e8f0;
+  font-size: 1.5rem;
+}
+
+.secao-tags {
+  width: 100%;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.secao-tags h3 {
+  font-size: 0.9rem;
+  color: #e2e8f0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+}
+
+.tag {
+  background-color: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
