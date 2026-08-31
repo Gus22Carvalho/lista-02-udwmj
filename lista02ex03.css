@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #0f172a; /* Fundo escuro para destacar o card central */
+  color: #1e293b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ffffff; 
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Títulos */
+h1 {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: #ea580c; /* Laranja culinário em destaque */
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 16px;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #334155;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+/* Ingredientes estilo Pílulas / Badges */
+#ingredientes {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.ingrediente {
+  background-color: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #ffedd5;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+/* Modo de Preparo */
+.lista-preparo {
+  margin-left: 20px;
+}
+
+.lista-preparo li {
+  color: #334155;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding-left: 6px;
+}
+
+.lista-preparo li::marker {
+  color: #ea580c;
+  font-weight: bold;
+}
