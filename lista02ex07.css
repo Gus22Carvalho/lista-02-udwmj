@@ -40,6 +40,6 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: orange;
+    background-color: red;
     color: white;
 }
