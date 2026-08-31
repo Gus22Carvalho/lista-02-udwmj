@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6 - Tabela de Preços</title>
+    <link rel="stylesheet" href="lista02ex06.css">
+</head>
+<body>
+    <!-- tag th são os titulos das páginas, e td são os dados das tabelas. As tr são as linhas da tabela. -->
+    <div class="main_card">
+        <h1>Tabela de Planos</h1>
+        <table class="tabela_cardapio">
+            <tr>
+                <th>Item / Prato</th>
+                <th>Descrição</th>
+                <th class="col_preco">Preço</th>
+            </tr>
+           <tr class="categoria_header">
+                <td colspan="3">Lanches & Tradicionais</td> 
+                <!-- o colspan="3" indica que a célula ocupa 3 colunas da tabela -->
+            </tr>
+            <tr>
+                <td>Pão de Queijo Especial</td>
+                <td>Massa artesanal recheada com requeijão cremoso.</td>
+                <td class="preco">R$ 8,50</td>
+            </tr>
+            <tr>
+                <td>Sanduíche de Frango</td>
+                <td>Pão baguete, frango desfiado, maionese da casa e salada.</td>
+                <td class="preco">R$ 18,00</td>
+            </tr>
+
+            <tr class="categoria_header">
+                <td colspan="3">Bebidas</td>
+            </tr>
+            <tr>
+                <td>Café Coado (200ml)</td>
+                <td>Grãos selecionados com torra média.</td>
+                <td class="preco">R$ 5,00</td>
+            </tr>
+            <tr>
+                <td>Suco Natural de Laranja</td>
+                <td>Feito na hora, sem adição de açúcar (300ml).</td>
+                <td class="preco">R$ 9,00</td>
+            </tr>
+
+            <tr class="categoria_header">
+                <td colspan="3">Sobremesas</td>
+            </tr>
+            <tr>
+                <td>Pudim de Leite Condensado</td>
+                <td>Fatia individual com calda de caramelo.</td>
+                <td class="preco">R$ 10,00</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
